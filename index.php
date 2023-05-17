@@ -26,7 +26,7 @@ $products = [new Product('Monge Gemon Medium Adult con Tonno e Riso','https://ww
                     </div>
                     <div class="card-body">
                         <h2><?= $product->title ?></h2>
-                        <?= $product->category == 'Cane'? '<i class="fa-solid fa-dog"></i>' : '<i class="fa-solid fa-cat"></i>' ?>
+                        <?= $product->category == 'Cane'? '<i class="fa-solid fa-dog fs-4"></i>' : '<i class="fa-solid fa-cat fs-4"></i>' ?>
                         <p><?= $product->price . '€' ?></p>
                     </div>
                 </div>
