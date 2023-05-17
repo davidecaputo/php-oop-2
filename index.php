@@ -21,10 +21,10 @@ $products = [new Product('Monge Gemon Medium Adult con Tonno e Riso','https://ww
             <?php foreach ($products as $product) { ?>
             <div class="col-4 mb-4">
                 <div class="card p-2 h-100">
-                    <div class="card-image-top">
+                    <div class="card-image-top d-flex justify-content-center">
                         <img src="<?= $product->image ?>" alt="" class="w-75">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-end">
                         <h2><?= $product->title ?></h2>
                         <?= $product->category == 'Cane'? '<i class="fa-solid fa-dog fs-4"></i>' : '<i class="fa-solid fa-cat fs-4"></i>' ?>
                         <p><?= $product->price . '€' ?></p>
