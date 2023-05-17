@@ -15,7 +15,7 @@ $products = [new Product('Monge Gemon Medium Adult con Tonno e Riso','https://ww
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body class="bg-info">
-    <h1 class="text-center">Negozio per animali</h1>
+    <h1 class="text-center text-white">Negozio per animali</h1>
     <div class="container py-5">
         <div class="row">
             <?php foreach ($products as $product) { ?>
